@@ -1,0 +1,25 @@
+ body {
+      font-family: sans-serif;
+      background: #fff;
+      color: #111;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+ 
+    nav {
+      border-bottom: 1px solid #ddd;
+      padding: 0 24px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    .btn {
+      padding: 7px 14px;
+      border: 1px solid #bbb;
+      background: #fff;
+      color: #111;
+      border-radius: 4px;
+    }
