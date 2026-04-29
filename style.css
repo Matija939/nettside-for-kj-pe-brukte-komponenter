@@ -23,3 +23,29 @@
       color: #111;
       border-radius: 4px;
     }
+    .btn:hover { background: #f5f5f5; }
+    .btn-dark { background: #111; color: #fff; border-color: #111; }
+    .btn-dark:hover { background: #333; }
+
+
+     .filter-btn {
+      padding: 5px 14px;
+      border: 1px solid #ccc;
+      background: #fff;
+      color: #555;
+      border-radius: 3px;
+      font-size: 13px;
+    }
+    .filter-btn:hover { background: #ffffff; color: #000000; }
+    .filter-btn.active { background: #000000; color: #fff; border-color: #000000; }
+ 
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th {
+      text-align: left;
+      padding: 8px 12px;
+      border-bottom: 2px solid #eaeaea;
+      font-size: 12px;
+      color: #666;
+      font-weight: normal;
+      text-transform: uppercase;
+    }

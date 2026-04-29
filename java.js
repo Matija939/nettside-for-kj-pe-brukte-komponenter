@@ -5,3 +5,7 @@ async function loadProducts() {
   products = await res.json();
   renderProducts();
 }
+
+let products = [];
+ 
+loadProducts();
