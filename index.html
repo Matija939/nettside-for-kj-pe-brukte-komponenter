@@ -1,16 +1,43 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="java.js">
+<link rel="db.py"
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PC-komponenter</title>
+    <title>brukt pc deler</title>
 </head>
 <body>
- <nav>
-  <div class="logo">brukt PC deler </div>
-  <button class="btn" onclick="toggleCart()">Handlekurv (<span id="cartCount">0</span>)</button>
-  
-</nav>
-    
+   <h1>Brukt PC Komponenter</h1> 
+   <h2>produkter</h2>
+   <table>
+    <thead>
+        <tr>
+            <th>Navn</th>
+            <th>Kategori</th>
+            <th>Spesifikasjoner</th>
+            <th>lager</th>
+            <th>Pris</th>
+        </tr>
+    </thead>
+    <tbody id="produktTable"
+     <tr><td colspan="6">Laster produkter...</td></tr>
+  </tbody>
+ </table>
+ <div id="cart">
+    <h2>Handlekurv</h2>
+    <div id="cartItems">Tom</div>
+    <p><strong>Total: <span id="cartTotal">0</span>kr</strong></p>
+
+ </div>
+ <div id="orderFrom"
+ <h2>Bestill</h2>
+ <label>Fornavn</label>
+ <input type="text" id="firstName" placeholder="Skriv her fornavnet" />
+ <label>Etternavn</label>
+ <input type="text" id="firstName" placeholder="Skriv her etternavn" />
+ <label>E-post</label>
+ <input type="email" id="email" placeholder="navn@eksempel.no"
 </body>
 </html>
